@@ -1,0 +1,27 @@
+# Secret part of this configuration is in secrets.yml.
+nodewatcher:
+  host: push.kw.koruza.net
+weather:
+  # Address where the weather station is reachable.
+  host: 10.10.254.90
+  # UUID of the weather station node on nodewatcher.
+  uuid: 1b6e22eb-4299-4e15-9c5e-82024d45c89d
+links:
+  - 1
+  - 2
+routers:
+  - id: 1
+    link_a: null
+    uuid_a: null
+    link_b: 1
+    uuid_b: tbd
+  - id: 2
+    link_a: 1
+    uuid_a: tbd
+    link_b: 2
+    uuid_b: tbd
+  - id: 3
+    link_a: 2
+    uuid_a: tbd
+    link_b: null
+    uuid_b: null

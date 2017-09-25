@@ -1,0 +1,22 @@
+links:
+  - 1
+  - 2
+routers:
+  # Tkalka
+  - id: 1
+    link_a: 0
+    uuid_a: 0
+    link_b: 1
+    uuid_b: <UNIT ID>
+  # Glavni trg
+  - id: 2
+    link_a: 1
+    uuid_a: <UNIT ID>
+    link_b: 2
+    uuid_b: <UNIT ID>
+  # GT22
+  - id: 3
+    link_a: 2
+    uuid_a: <UNIT ID>
+    link_b: 0
+    uuid_b: 0

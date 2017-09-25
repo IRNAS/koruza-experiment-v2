@@ -1,0 +1,10 @@
+[Unit]
+Description=koruza-experiment
+
+[Service]
+ExecStart=/home/pi/koruza-experiment-mb/scripts/run-experiment.sh
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,7 @@
+*.swp
+*~
+*.pyc
+__pycache__
+
+# Secret part of configuration should not be committed.
+secrets.yml
